@@ -35,7 +35,7 @@
       "secret_key":      "{{user `aws_secret_key`}}",
       "region":          "us-east-1",
       "vpc_id":          "vpc-f2956897",
-      "subnet_id":       "",
+      "subnet_id":       "subnet-57d4837f",
       "source_ami":      "{{user `us_east_1_ami`}}",
       "instance_type":   "c3.large",
       "ssh_username":    "{{user `ssh_username`}}",
